@@ -6,7 +6,7 @@ $("#psubmit").click( function(e) {
 	//var data = $("#myform :input").serializeArray();
 	
 	$.ajax({
-      url: '../www/php/putuser.php',
+      url: 'php/putuser.php',
       type: 'post',
       data: $('#pform').serialize(),
       success: function(info) {
